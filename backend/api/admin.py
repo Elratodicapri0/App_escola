@@ -59,4 +59,8 @@ admin.site.register(Responsavel, ResponsaveisAdmin)
 admin.site.register(Aluno, AlunosAdmin)
 admin.site.register(Professor, ProfessorAdmin)
 admin.site.register(Bimestre, BimestreAdmin)
+admin.site.register(AtividadePendente, AtividadePendenteAdmin)
+admin.site.register(Nota, NotaAdmin)
+admin.site.register(EventoExtracurricular, EventoExtracurricularAdmin)
+admin.site.register(PagamentoPendente, PagamentoPendenteAdmin)
 
