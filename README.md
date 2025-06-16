@@ -22,3 +22,6 @@ Em "pagamentos pendentes", o funcionamento é semelhante ao de adicionar eventos
 ##Observações
 
 O código, infelizmente, ainda não conta com o front-end (React) finalizado, devido a alguns problemas enfrentados com o Django durante o desenvolvimento, que me levaram a reiniciar o projeto cerca de 10 vezes. Apesar disso, o sistema foi desenvolvido com o máximo de funcionalidades possíveis dentro do tempo disponível. Infelizmente, não pude finalizá-lo completamente.
+
+Feito por: João Gabriel
+Sala: 3DS
