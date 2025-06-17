@@ -48,12 +48,6 @@ class PagamentoPendenteAdmin(admin.ModelAdmin):
     search_fields = ('aluno__nome',)
     list_filter = ('data_vencimento',)
 
-class ContratosAdmin(admin.ModelAdmin):
-    list_display = ('id',  'complete_name_aluno', 'adress', 'cpf', 'birthday', 'complete_name','cpf_aluno', 'birthday_aluno')
-    list_display_links = ( 'complete_name_aluno', 'adress', 'cpf', 'birthday', 'complete_name','cpf_aluno', 'birthday_aluno')
-    list_filter = ('cpf', 'cpf_aluno')
-    search_fields = ('cpf', 'cpf_aluno')
-
 
 admin.site.register(Responsavel, ResponsaveisAdmin)
 admin.site.register(Aluno, AlunosAdmin)
